@@ -9,5 +9,9 @@ public class Dog extends Animal{
 		Dog obj=new Dog();
 		obj.sound();
 	}
+	
+	public void sound(){
+		System.out.println("Woof Woof");
+	}
 
 }
